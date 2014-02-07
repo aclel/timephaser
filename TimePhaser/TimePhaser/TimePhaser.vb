@@ -164,8 +164,6 @@
         ' Returns: An array containing the intervals over the time period.
 
         Dim numWholeIntervals As Integer
-        Const hoursInDay As Integer = 24
-        Const minutesInHour As Integer = 60
 
         Dim timeSpan As TimeSpan = lastInterval - nextInterval
 
